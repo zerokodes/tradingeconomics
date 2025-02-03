@@ -6,11 +6,13 @@ const {
   calculateAverageDailyLowRange,
   calculateAverageDailyTotalRange,
   calculateAverageDailyVolumeRange,
+  getAllMetrics,
 } = require("../controllers/metrics");
 
 router.route("/getAverageDailyHighRange").get(calculateAverageDailyHighRange);
 router.route("/getAverageDailyLowRange").get(calculateAverageDailyLowRange);
 router.route("/getAverageDailyTotalRange").get(calculateAverageDailyTotalRange);
+router.route("/getAllMetrics").get(getAllMetrics);
 router
   .route("/getAverageDailyVolumeRange")
   .get(calculateAverageDailyVolumeRange);
