@@ -24,8 +24,8 @@ To optimize performance, we **store API responses in MongoDB**, reducing redunda
 
 ### **Deployment**
 
-- **Backend:** [Render](https://render.com) (Auto-Deploy on Git Push)
-- **Frontend:** [Live Server](#) (Replace with the actual link)
+- **Backend:** [Render](https://backend-vqnv.onrender.com) (Auto-Deploy on Git Push)
+- **Frontend:** [Render](https://frontend-pnqw.onrender.com) (Replace with the actual link)
 
 ### **API Documentation**
 
